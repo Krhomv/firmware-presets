@@ -78,7 +78,7 @@
     set crash_recovery = ON
 #$OPTION END
 
-#$ OPTION_GROUP BEGIN: (EXCLUSIVE) OSD
+#$ OPTION_GROUP BEGIN (EXCLUSIVE): OSD
     #$OPTION BEGIN (CHECKED): HD OSD
         set osd_units = METRIC
         set osd_warn_bitmask = 171901
