@@ -44,9 +44,10 @@
 
 #$OPTION BEGIN (CHECKED): Aux Modes
     aux 0 0 0 1600 2100 0 0
-    aux 1 1 5 1600 2100 0 0
-    aux 2 13 3 1600 2100 0 0
-    aux 3 35 1 1600 2100 0 0
+    aux 1 0 1 1600 2100 0 0
+    aux 2 1 5 1600 2100 0 0
+    aux 3 13 3 1600 2100 0 0
+    aux 4 35 1 1600 2100 0 0
 #$OPTION END
 
 #$OPTION BEGIN (CHECKED): 250Hz ELRS Preset
