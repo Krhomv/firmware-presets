@@ -69,6 +69,8 @@
     set feedforward_averaging = 2_POINT
     set feedforward_smooth_factor = 45
     set feedforward_jitter_factor = 1
+	
+	set osd_rssi_dbm_alarm = -98
 #$OPTION END
 
 #$OPTION BEGIN (CHECKED): Crash recovery
