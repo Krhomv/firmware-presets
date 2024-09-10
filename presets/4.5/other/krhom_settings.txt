@@ -40,6 +40,9 @@
     set motor_pwm_protocol = DSHOT300
     set vbat_max_cell_voltage = 440
     set yaw_motors_reversed = ON
+    set throttle_boost = 0
+    set thrust_linear = 20
+    set vbat_sag_compensation = 100
 #$OPTION END
 
 #$OPTION BEGIN (CHECKED): Aux Modes
