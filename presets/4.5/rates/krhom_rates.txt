@@ -5,8 +5,8 @@
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: krhom, rates
 #$ AUTHOR: krhomv
-
 #$ DESCRIPTION: My Rates
+#$ INCLUDE: presets/4.3/rates/defaults.txt
 
 profile 0
 rateprofile 0
