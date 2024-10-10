@@ -9,8 +9,6 @@
 
 profile 0
 rateprofile 0
-set thr_mid = 30
-set thr_expo = 0
 set rates_type = ACTUAL
 set quickrates_rc_expo = OFF
 set roll_rc_rate = 20
@@ -22,9 +20,4 @@ set yaw_expo = 30
 set roll_srate = 67
 set pitch_srate = 67
 set yaw_srate = 67
-set throttle_limit_type = OFF
-set throttle_limit_percent = 100
-set roll_rate_limit = 1998
-set pitch_rate_limit = 1998
-set yaw_rate_limit = 1998
 
