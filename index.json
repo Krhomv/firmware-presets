@@ -160,6 +160,7 @@
       "Betaflight",
       "BMSThomas",
       "Botgrinder",
+      "Brandon Beans",
       "Chris Rosser",
       "ctzsnooze",
       "Daniel Appel / Tehllama",
@@ -286,12 +287,14 @@
       "bardwell",
       "basher",
       "basic",
+      "beans",
       "beginner",
       "betaflight",
       "blackbox",
       "BMS",
       "BMSThomas",
       "botgrinder",
+      "brandon",
       "brushless",
       "build",
       "Caddx",
@@ -350,6 +353,7 @@
       "FPVCycle",
       "FPVCycle TP3",
       "fpvian",
+      "frame",
       "freedom",
       "freedom spec",
       "FreedomSpec",
@@ -437,6 +441,7 @@
       "Passthrough",
       "pid",
       "PIDtoolbox",
+      "plastic",
       "pro32",
       "profile",
       "Pure Race",
@@ -514,6 +519,7 @@
       "tiny tank",
       "TinyApe",
       "TinyTrainer",
+      "tinywhoop",
       "toothpic",
       "Toothpick",
       "Tracer",
@@ -5677,8 +5683,30 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.5/filters/bandon_whoop_filters.txt",
+      "hash": "141a2f4223fb78c2196dd6534694c48133f4b04973bdb226d441149221f8d1d0",
+      "title": "Brandon Beans' Whoop Filters",
+      "firmware_version": [
+        "4.5",
+        "4.4"
+      ],
+      "category": "FILTERS",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "filters",
+        "brandon",
+        "beans",
+        "whoop",
+        "tinywhoop",
+        "plastic",
+        "frame"
+      ],
+      "author": "Brandon Beans",
+      "priority": 100
+    },
+    {
       "fullPath": "presets/4.5/other/krhom_settings.txt",
-      "hash": "426cf12f05e5155f2b1d61bac9c5e5e572c860900aac5d1ec96869f5798c97a0",
+      "hash": "2744e97cd90195e43ae85f00b9be11b686793a8e850c8546cd3e72c6b3a9dc2b",
       "title": "Krhom's Builds",
       "firmware_version": [
         "4.5",
@@ -5697,7 +5725,7 @@
     },
     {
       "fullPath": "presets/4.5/rates/krhom_rates.txt",
-      "hash": "ee07818469f0572919fddfa5b27599ba3955be2813c1db2097c9dd932127028c",
+      "hash": "cac193ca81afa5cb2a8efefd17f4a4685fbc7b35cf48916ffcf87a79d4518155",
       "title": "Krhom's Rates",
       "firmware_version": [
         "4.5",
