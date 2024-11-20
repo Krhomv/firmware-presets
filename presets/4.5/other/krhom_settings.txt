@@ -77,8 +77,8 @@
 #$OPTION END
 
 #$OPTION BEGIN (CHECKED): Crash recovery
-    set crash_dthreshold = 80
-    set crash_gthreshold = 600
+    set crash_dthreshold = 200
+    set crash_gthreshold = 1000
     set crash_setpoint_threshold = 500
     set crash_recovery_rate = 200
     set crash_recovery = ON
