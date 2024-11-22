@@ -19,5 +19,5 @@ set pitch_expo = 0
 set yaw_expo = 0
 set roll_srate = 54
 set pitch_srate = 54
-set yaw_srate = 312
+set yaw_srate = 32
 
