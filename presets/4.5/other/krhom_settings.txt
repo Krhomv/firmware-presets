@@ -23,7 +23,7 @@
     set yaw_expo = 0
     set roll_srate = 54
     set pitch_srate = 54
-    set yaw_srate = 32
+    set yaw_srate = 43
     set throttle_limit_type = OFF
     set throttle_limit_percent = 100
     set roll_rate_limit = 1998
