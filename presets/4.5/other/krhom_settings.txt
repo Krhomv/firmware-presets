@@ -33,6 +33,7 @@
 
 #$OPTION BEGIN (CHECKED): Motor, Battery & RC Setup
     map AETR1234
+    set deadband = 5
     set d_max_advance = 0
     set small_angle = 180
     set blackbox_sample_rate = 1/2
