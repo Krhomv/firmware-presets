@@ -46,7 +46,8 @@
 
 #$OPTION BEGIN (CHECKED): Motor, Battery & RC Setup
     map AETR1234
-    set deadband = 5
+    set deadband = 10
+    set yaw_deadband = 20
     set small_angle = 180
     set blackbox_sample_rate = 1/2
     set dshot_bidir = ON
@@ -54,7 +55,6 @@
     set vbat_max_cell_voltage = 440
     set yaw_motors_reversed = ON
     set throttle_boost = 0
-    set thrust_linear = 20
     set vbat_sag_compensation = 100
 #$OPTION END
 
@@ -67,29 +67,19 @@
 #$OPTION END
 
 #$OPTION BEGIN (CHECKED): 250Hz ELRS Preset
-    set feedforward_transition = 0
-    set feedforward_boost = 15
+    set rc_smoothing_auto_factor = 140
+    set rc_smoothing_setpoint_cutoff = 25
+    set rc_smoothing_feedforward_cutoff = 25
 
-    set rc_smoothing = ON
-    set rc_smoothing_auto_factor = 30
-    set rc_smoothing_auto_factor_throttle = 30
-    set rc_smoothing_setpoint_cutoff = 0
-    set rc_smoothing_feedforward_cutoff = 0
-    set rc_smoothing_throttle_cutoff = 0
-    set rc_smoothing_debug_axis = ROLL
-
-    # basic requirements for ExpressLRS
-    feature RX_SERIAL
-    set serialrx_provider = CRSF
-
+    profile 0
     set feedforward_averaging = 2_POINT
     set feedforward_smooth_factor = 45
-    set feedforward_jitter_factor = 1
-	
-	set osd_rssi_dbm_alarm = -98
+    set feedforward_jitter_factor = 10
+
+    set osd_rssi_dbm_alarm = -98
 #$OPTION END
 
-#$OPTION BEGIN (CHECKED): Crash recovery
+#$OPTION BEGIN (UNCHECKED): Crash recovery
     set crash_dthreshold = 200
     set crash_gthreshold = 1000
     set crash_setpoint_threshold = 500
