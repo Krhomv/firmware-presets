@@ -1,0 +1,25 @@
+#$ TITLE: Brandon Beans' Whoop Filters
+#$ FIRMWARE_VERSION: 4.5
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: FILTERS
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: filters, brandon, beans, whoop, tinywhoop, plastic, frame
+#$ AUTHOR: Brandon Beans
+#$ DESCRIPTION: Brandon Beans' plastic frame whoop filters for 65 and 75mm whoops, as given on Ciotti's Discord. **REQUIRES BIDIRECTIONAL DSHOT**.
+
+# master
+set gyro_lpf1_static_hz = 0
+set dyn_notch_count = 1
+set dyn_notch_q = 225
+set dyn_notch_min_hz = 125
+set dyn_notch_max_hz = 650
+set gyro_lpf1_dyn_min_hz = 0
+set rpm_filter_harmonics = 1
+
+set dterm_lpf1_dyn_min_hz = 90
+set dterm_lpf1_dyn_max_hz = 180
+set dterm_lpf1_static_hz = 90
+set dterm_lpf2_static_hz = 180
+set yaw_lowpass_hz = 150
+set simplified_dterm_filter_multiplier = 120
+
