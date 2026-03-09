@@ -134,6 +134,7 @@
   },
   "uniqueValues": {
     "firmware_version": [
+      "2025.12",
       "3.5",
       "4.2",
       "4.3",
@@ -565,6 +566,61 @@
     ]
   },
   "presets": [
+    {
+      "fullPath": "presets/2025.12/filters/bandon_whoop_filters.txt",
+      "hash": "bdfd2ebc30c713a359666eea0eda2c3349d409db734ab6cceef4dc1a15617894",
+      "title": "Brandon Beans' Whoop Filters",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "FILTERS",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "filters",
+        "brandon",
+        "beans",
+        "whoop",
+        "tinywhoop",
+        "plastic",
+        "frame"
+      ],
+      "author": "Brandon Beans",
+      "priority": 100
+    },
+    {
+      "fullPath": "presets/2025.12/other/krhom_settings.txt",
+      "hash": "1922f32201d8d63fbfd3f9f06ffcb5064724d62bc54587c70f6f27f70e30ad84",
+      "title": "Krhom's Builds",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "OTHER",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "krhom",
+        "defaults",
+        "build",
+        "settings"
+      ],
+      "author": "krhomv",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/rates/krhom_rates.txt",
+      "hash": "7012aef40de22612ce714813d3662c61022d0c561849b4f75b75d8ebdc107090",
+      "title": "Krhom's Rates",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "RATES",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "krhom",
+        "rates"
+      ],
+      "author": "krhomv",
+      "priority": 10000
+    },
     {
       "fullPath": "presets/4.3/filters/basic_no_rpm_clean.txt",
       "hash": "c0bd2461401e586a4bdb5bf104db999a11bf8341762dbe509adf2d676f5b4412",
@@ -5706,7 +5762,7 @@
     },
     {
       "fullPath": "presets/4.5/other/krhom_settings.txt",
-      "hash": "2744e97cd90195e43ae85f00b9be11b686793a8e850c8546cd3e72c6b3a9dc2b",
+      "hash": "5416483b1aaba328252d519bd84fb64724fa3d3788035de032a1527e245aa39b",
       "title": "Krhom's Builds",
       "firmware_version": [
         "4.5",
@@ -5725,7 +5781,7 @@
     },
     {
       "fullPath": "presets/4.5/rates/krhom_rates.txt",
-      "hash": "cac193ca81afa5cb2a8efefd17f4a4685fbc7b35cf48916ffcf87a79d4518155",
+      "hash": "ce63be59da94d70bf92af89fdbd01302d63daa7d1fc6e220055991ef2035a709",
       "title": "Krhom's Rates",
       "firmware_version": [
         "4.5",
