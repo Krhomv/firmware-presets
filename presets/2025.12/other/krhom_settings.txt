@@ -136,9 +136,6 @@
     #$OPTION END
     #$OPTION BEGIN (UNCHECKED): HDZ OSD 
 		set pilot_name = KRHOM
-		set rc_smoothing_auto_factor = 140
-		set rc_smoothing_setpoint_cutoff = 25
-		set rc_smoothing_feedforward_cutoff = 25
 		set blackbox_sample_rate = 1/2
 		set dshot_bidir = ON
 		set motor_pwm_protocol = DSHOT300
