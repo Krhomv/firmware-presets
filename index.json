@@ -285,6 +285,7 @@
       "Avatar",
       "AyyyKayyy",
       "bando",
+      "bando lovers",
       "bardwell",
       "basher",
       "basic",
@@ -527,7 +528,7 @@
       "trainer",
       "tramp",
       "transmitter",
-      "Tune",
+      "tune",
       "twig",
       "tx1600",
       "tx5m.1",
@@ -589,7 +590,7 @@
     },
     {
       "fullPath": "presets/2025.12/other/krhom_settings.txt",
-      "hash": "1922f32201d8d63fbfd3f9f06ffcb5064724d62bc54587c70f6f27f70e30ad84",
+      "hash": "6cbc8fc86d45b91f04de764def161450c678ad96bfe08aef764ec4152ff82739",
       "title": "Krhom's Builds",
       "firmware_version": [
         "2025.12"
@@ -620,6 +621,25 @@
       ],
       "author": "krhomv",
       "priority": 10000
+    },
+    {
+      "fullPath": "presets/2025.12/tune/bandolovers_tune.txt",
+      "hash": "89bbf9c6207dffd7d3390a363ef59ccc05c707362d037c12054c6ecc56aed236",
+      "title": "BandoLovers Tune",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "bando",
+        "bando lovers",
+        "tune",
+        "pid",
+        "freestyle"
+      ],
+      "author": "krhomv",
+      "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.3/filters/basic_no_rpm_clean.txt",
@@ -5795,6 +5815,25 @@
       ],
       "author": "krhomv",
       "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.5/tune/bandolovers_tune.txt",
+      "hash": "80cd38ee95dd0a584682cee78bab612e4258cfa3e81f7f0f3d4d260ad322484c",
+      "title": "BandoLovers Tune",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "bando",
+        "bando lovers",
+        "tune",
+        "pid",
+        "freestyle"
+      ],
+      "author": "krhomv",
+      "priority": 1000000000000
     }
   ]
 }

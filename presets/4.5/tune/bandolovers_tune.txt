@@ -1,0 +1,139 @@
+#$ TITLE: BandoLovers Tune
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: bando, bando lovers, tune, pid, freestyle
+#$ AUTHOR: krhomv
+#$ DESCRIPTION: BandoLovers Tune preset for Betaflight 4.5.
+
+set gyro_hardware_lpf = NORMAL
+set gyro_lpf1_type = PT1
+set gyro_lpf1_static_hz = 500
+set gyro_lpf2_type = PT1
+set gyro_lpf2_static_hz = 1000
+set gyro_notch1_hz = 0
+set gyro_notch1_cutoff = 0
+set gyro_notch2_hz = 0
+set gyro_notch2_cutoff = 0
+set dyn_notch_count = 2
+set dyn_notch_q = 550
+set dyn_notch_min_hz = 110
+set dyn_notch_max_hz = 600
+set gyro_lpf1_dyn_min_hz = 500
+set gyro_lpf1_dyn_max_hz = 1000
+set gyro_lpf1_dyn_expo = 5
+set dshot_bidir = ON
+set simplified_gyro_filter = ON
+set simplified_gyro_filter_multiplier = 200
+set rpm_filter_harmonics = 3
+set rpm_filter_weights = 100,0,80
+set rpm_filter_q = 650
+set rpm_filter_min_hz = 110
+set rpm_filter_fade_range_hz = 40
+set rpm_filter_lpf_hz = 150
+
+profile 0
+
+# profile 0
+set profile_name = BL
+set dterm_lpf1_dyn_min_hz = 90
+set dterm_lpf1_dyn_max_hz = 180
+set dterm_lpf1_dyn_expo = 5
+set dterm_lpf1_type = PT1
+set dterm_lpf1_static_hz = 90
+set dterm_lpf2_type = PT1
+set dterm_lpf2_static_hz = 180
+set dterm_notch_hz = 0
+set dterm_notch_cutoff = 0
+set vbat_sag_compensation = 100
+set anti_gravity_cutoff_hz = 5
+set anti_gravity_p_gain = 100
+set iterm_relax = RP
+set iterm_relax_type = SETPOINT
+set iterm_relax_cutoff = 15
+set iterm_windup = 85
+set iterm_limit = 400
+set pidsum_limit = 500
+set pidsum_limit_yaw = 400
+set yaw_lowpass_hz = 100
+set throttle_boost = 5
+set throttle_boost_cutoff = 15
+set p_pitch = 64
+set i_pitch = 127
+set d_pitch = 50
+set f_pitch = 154
+set p_roll = 56
+set i_roll = 110
+set d_roll = 40
+set f_roll = 135
+set p_yaw = 56
+set i_yaw = 110
+set d_yaw = 0
+set f_yaw = 135
+set d_min_roll = 29
+set d_min_pitch = 37
+set d_min_yaw = 0
+set d_max_gain = 37
+set d_max_advance = 20
+set thrust_linear = 10
+set dyn_idle_min_rpm = 28
+set dyn_idle_max_increase = 150
+set dyn_idle_start_increase = 50
+set simplified_pids_mode = RPY
+set simplified_i_gain = 110
+set simplified_d_gain = 95
+set simplified_pi_gain = 100
+set simplified_dmax_gain = 100
+set simplified_feedforward_gain = 90
+set simplified_dterm_filter = ON
+set tpa_mode = D
+set tpa_rate = 65
+set tpa_breakpoint = 1350
+set tpa_low_rate = 20
+set tpa_low_breakpoint = 1050
+set tpa_low_always = OFF
+
+#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Frame & Action Cam
+    #$ OPTION BEGIN (UNCHECKED): Without Action Cam (True X)
+        set simplified_pitch_d_gain = 100
+        set simplified_pitch_pi_gain = 100
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): With Action Cam (True X)
+        set simplified_pitch_d_gain = 115
+        set simplified_pitch_pi_gain = 115
+    #$ OPTION END
+    #$ OPTION BEGIN (CHECKED): Without Action Cam (Squashed X)
+        set simplified_pitch_d_gain = 110
+        set simplified_pitch_pi_gain = 110
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): With Action Cam (Squashed X)
+        set simplified_pitch_d_gain = 125
+        set simplified_pitch_pi_gain = 125
+    #$ OPTION END
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Tuning Profile Aggressiveness
+    #$ OPTION BEGIN (CHECKED): Normal Tune (Safe / Standard)
+        set simplified_master_multiplier = 125
+        set simplified_dterm_filter_multiplier = 120
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Risky/Winter Tune (More locked in, increases the chance of smoking a motor)
+        set simplified_master_multiplier = 140
+        set simplified_dterm_filter_multiplier = 130
+    #$ OPTION END
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Center of Gravity Setup
+    #$ OPTION BEGIN (CHECKED): Centered CoG
+        set anti_gravity_gain = 60
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Offset CoG
+        set anti_gravity_gain = 120
+    #$ OPTION END
+#$ OPTION_GROUP END
+
+#$ OPTION BEGIN (UNCHECKED): High motor authority: High KV, light props, Voltara ESC...
+    set simplified_d_gain = 80
+#$ OPTION END
+
+simplified_tuning apply
