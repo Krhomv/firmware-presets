@@ -26,7 +26,7 @@ Reference the screenshot below to ensure your setup is correct:
 Once the custom source is configured and active, you can apply the tune to your drone:
 
 1. In the **Presets** tab, locate the search bar at the top.
-2. Type `BandoLovers Tune` or just `bando` to filter the available presets.
+2. Type `BandoLovers 5" Bando Tune` or just `bando` to filter the available presets.
 3. Select the tune that appears from `Krhom's Presets`.
 4. Choose the appropriate options for your **Frame & Action Cam**, **Tuning Profile Aggressiveness**, and **Center of Gravity Setup**.
 5. Click **Pick** (or **Apply**) and then **Save and Reboot** to apply the settings to your flight controller.

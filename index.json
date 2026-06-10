@@ -624,8 +624,8 @@
     },
     {
       "fullPath": "presets/2025.12/tune/bandolovers_tune.txt",
-      "hash": "ef6d5395565d6750030b7d5a37212a87e24263af48d94cc2047d651376b42986",
-      "title": "BandoLovers Tune",
+      "hash": "4bc10b8f2deb3cfe0440c30698060fee77bf1561f06dc53c236d23fc9932395f",
+      "title": "BandoLovers 5\" Bando Tune",
       "firmware_version": [
         "2025.12"
       ],
@@ -5818,8 +5818,8 @@
     },
     {
       "fullPath": "presets/4.5/tune/bandolovers_tune.txt",
-      "hash": "e6ede074d099df052f64fed195a27237455203025b6be4e4f71489e22e6c639b",
-      "title": "BandoLovers Tune",
+      "hash": "12fa6eb6ad9688e5617b62197179ace8a2c41e41c52c7aad1d59bba1b3293b4d",
+      "title": "BandoLovers 5\" Bando Tune",
       "firmware_version": [
         "4.5"
       ],
