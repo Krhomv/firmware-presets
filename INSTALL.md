@@ -16,11 +16,24 @@ To use these custom tuning and filter presets in Betaflight Configurator, you ne
 7. Make sure the source is active! You should see a yellow circle with a checkmark next to your preset source name, and the button below the branch name should say **Make disabled** (which means it is currently enabled).
 8. Click **OK** to close the dialog.
 
-You can now search for and apply the custom BandoLovers presets directly within Betaflight Configurator!
-
-### Configuration Example
+### Adding the Source Configuration Example
 Reference the screenshot below to ensure your setup is correct:
 
 ![Betaflight Preset Sources Configuration](preset_sources.png)
 
-*(Note: Please save your screenshot as `preset_sources.png` in the root of this repository so it displays correctly above).*
+## Applying the BandoLovers Tune
+
+Once the custom source is configured and active, you can apply the tune to your drone:
+
+1. In the **Presets** tab, locate the search bar at the top.
+2. Type `BandoLovers Tune` or just `bando` to filter the available presets.
+3. Select the tune that appears from `Krhom's Presets`.
+4. Choose the appropriate options for your **Frame & Action Cam**, **Tuning Profile Aggressiveness**, and **Center of Gravity Setup**.
+5. Click **Pick** (or **Apply**) and then **Save and Reboot** to apply the settings to your flight controller.
+
+### Preset Search Example
+Reference the screenshot below for an example of searching for the tune:
+
+![BandoLovers Tune Search](bl_tune.png)
+
+*(Note: Please save your screenshots as `preset_sources.png` and `bl_tune.png` in the root of this repository so they display correctly above).*
