@@ -4,7 +4,7 @@
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: bando, bando lovers, tune, pid, freestyle
 #$ AUTHOR: krhomv
-#$ DESCRIPTION: BandoLovers Tune preset for Betaflight 4.5.
+#$ DESCRIPTION: BandoLovers Tune preset for 5" freestyle bando bashers.
 
 set gyro_hardware_lpf = NORMAL
 set gyro_lpf1_type = PT1
