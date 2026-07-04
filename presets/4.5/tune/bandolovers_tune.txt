@@ -46,6 +46,7 @@ set dterm_lpf2_static_hz = 180
 set dterm_notch_hz = 0
 set dterm_notch_cutoff = 0
 set vbat_sag_compensation = 100
+set anti_gravity_gain = 120
 set anti_gravity_cutoff_hz = 5
 set anti_gravity_p_gain = 100
 set iterm_relax = RP
@@ -109,13 +110,6 @@ set tpa_low_always = OFF
     #$ OPTION END
 #$ OPTION_GROUP END
 
-#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Center of Gravity Setup
-    #$ OPTION BEGIN (CHECKED): Centered CoG
-        set anti_gravity_gain = 60
-    #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): Offset CoG
-        set anti_gravity_gain = 120
-    #$ OPTION END
-#$ OPTION_GROUP END
+
 
 simplified_tuning apply
